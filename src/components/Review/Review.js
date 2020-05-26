@@ -36,7 +36,7 @@ const Review = () => {
     }, [])
 
     let thankyou;
-    if(orderPlaced){
+    if(orderPlaced==true){
         thankyou =<img src={happyImage} alt=""/>
     }
 
